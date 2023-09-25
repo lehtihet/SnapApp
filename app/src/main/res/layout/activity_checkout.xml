@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDE7"
+    tools:context=".Checkout">
+
+
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="none"
+        android:minHeight="48dp"
+        android:text="@string/checkout"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="163dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:gravity="left"
+        android:tag="required"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greetingText" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="163dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:gravity="right"
+        android:tag="required"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greetingText" />
+
+    <TextView
+        android:id="@+id/cainformation"
+        android:layout_width="203dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/candainformation"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="firstname"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/ln"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="lastname"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/fn"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cainformation" />
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="addressname"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/enteraddress"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="postal"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/postal"
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/textView6"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/city"
+        android:inputType="text"
+        android:autofillHints="city"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/textView7"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/emailad"
+        android:inputType="text"
+        android:autofillHints="email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/textView8"
+        android:layout_width="322dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_border"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:hint="@string/phonen"
+        android:inputType="phone"
+        android:autofillHints="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+
+    <Button
+        android:id="@+id/confbutton"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#555555"
+        android:textSize="20sp"
+        android:text="@string/confirmbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locationArray" />
+    <string-array name="location_array">
+        <item>Select a location</item>
+        <item>Kista</item>
+        <item>T-Central</item>
+        <item>Tekniska Hogskolan</item>
+        <item>Akalla</item>
+    </string-array>
+    <string-array name="service_array">
+    <item>Select a service</item>
+    <item>Men\'s salon</item>
+    <item>Women\'s salon</item>
+    <item>SPA &amp; Massage</item>
+    <item>Facial &amp; Clean-ups</item>
+    <item>Repair Appliances</item>
+    <item>Wiring, Light &amp; Switch</item>
+    <item>Drainage Pipes</item>
+    <item>Fittings, Bath &amp; Toilets</item>
+    <item>Baby Sitting</item>
+    <item>Carpenter</item>
+
+    </string-array>
+
+</resources>
