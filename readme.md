@@ -3,7 +3,7 @@
 
 <h1 align="center">Native Android application for the posting and booking of services. </h1>
 
-<p align="center">The front end sends and recieves data from a <a href="https://www.example.com/">RESTful Spring Boot</a> backend which was hosted on Heroku. (Since the backend is no longer online, this app won't show populated data, instead see the image preview.)</p>
+<p align="center">The front end sends and recieves data to and from a <a href="https://www.example.com/">RESTful Spring Boot</a> backend which was hosted on Heroku. (Since the backend is no longer online, this app won't show populated data, instead see the image preview.)</p>
 
 ![Preview](./docs/images/apppreview.jpg)
 
