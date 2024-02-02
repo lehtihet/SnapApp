@@ -9,7 +9,7 @@
 
 ## Features
 
-- **Let's customers view a broad range of offered services**
+- **Lets customers view a broad range of offered services**
 - **Compare and see reviews of different service providers witin a service category**
 - **Select and book a time for a service**
 - **Post your own service to be available through the app**
